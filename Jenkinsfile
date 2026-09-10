@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage ("hello") {
+        stage ("hello_changed") {
             steps {
                 script {
                     hello()
